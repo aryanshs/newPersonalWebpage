@@ -1,0 +1,27 @@
+.nav{
+
+    width: 100%;
+    display: flex;
+   
+    justify-content: space-between;
+}
+
+.nav-logo{
+  flex: 1;
+  display: flex;
+}
+
+.nav-logo img{
+    height: 70px;
+    width: 70px;
+}
+
+.nav-links{
+    flex: 1;
+}
+
+.nav-links ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
